@@ -4,13 +4,18 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  background: #f6f5ef;
+  background: transparent;
   padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 
   .logo {
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
+    font-weight: bold;
     padding-top: 16px;
     padding-left: 100px;
   }
@@ -24,7 +29,7 @@ body {
       color: #333333;
       font-style: normal;
       font-family: Arial, georgia;
-      font-size: 13px;
+      font-size: 15px;
       padding: 8px 12px;
       margin-right: 100px;
       text-decoration: none;
