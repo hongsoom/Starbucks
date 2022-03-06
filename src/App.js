@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-import StarBucks from "./components/StarBucks";
+import StarBucks from "./components/StarBucks/StarBucks";
 import COFFEE from "./components/COFFEE";
-import MENU from "./components/MENU";
+import MENU from "./components/Menu/MENU";
 import STORE from "./components/STORE";
 import LOGIN from "./components/LOGIN";
 

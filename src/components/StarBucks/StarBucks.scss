@@ -1,0 +1,13 @@
+.main {
+  position: relative;
+  width: 100%;
+
+  .images {
+    width: 100%;
+    object-fit: cover;
+    color: #ffffff;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+  }
+}
