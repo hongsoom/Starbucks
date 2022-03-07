@@ -1,0 +1,138 @@
+.content {
+  margin: 0 auto;
+  padding-bottom: 90px;
+  width: 1100px;
+  background: transparent;
+}
+
+div.product_result_wrap {
+  position: relative;
+}
+
+div.product_view_tab_wrap {
+  position: relative;
+  width: 1100px;
+}
+
+/* PRODUCT LIST HEADER */
+
+div.product_list > dl > dt {
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #f4f4f2;
+}
+
+div.product_list > dl > dt > p {
+  display: block;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+}
+
+div.product_list > dl > dt > i {
+  display: block;
+  margin-left: 15px;
+  height: 18px;
+  width: 45px;
+}
+
+div.product_list > dl > dt > i img {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  top: -9px;
+}
+
+div.product_list > dl > dt .summary {
+  display: block;
+  line-height: 18px;
+  margin-left: 5px;
+  font-size: 13px;
+  color: #444444;
+  letter-spacing: -1px;
+}
+
+/* PRODUCT LIST HEADER end */
+
+/* PRODUCT LIST */
+
+div.product_list > dl > dd {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-family: "nbg", "맑은 고딕", HelveticaNeue, DroidSans, Sans-serif,
+    Helvetica;
+}
+
+div.product_list > dl > dd > ul {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  width: 1120px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.product_list > dl > dd > ul li {
+  position: relative;
+  margin: 10px;
+  width: 260px;
+}
+
+div.product_list > dl > dd > ul li dl {
+  width: 260px;
+}
+
+div.product_list > dl > dd > ul li dt {
+  position: relative;
+  height: auto;
+  width: 258px;
+  overflow: hidden;
+}
+
+div.product_list > dl > dd > ul li dt img {
+  height: auto;
+  width: 258px;
+  transition: transform 1s;
+}
+
+div.product_list > dl > dd > ul li dt ul {
+  position: absolute;
+  left: 9px;
+  bottom: 10px;
+}
+
+div.product_list > dl > dd > ul li dt ul li {
+  float: left;
+  margin-right: 4px;
+}
+
+div.product_list > dl > dd > ul li dt ul li img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+div.product_list > dl > dd > ul li dd {
+  font-size: 14px;
+  color: #444;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* PRODUCT LIST end */
+
+/* CONTENTS end */
+
+/* HOVER ANIMATION */
+
+div.product_list > dl > dd > ul li dt img:hover {
+  transform: scale(1.1);
+}
