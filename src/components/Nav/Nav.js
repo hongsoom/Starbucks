@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import logo2 from "../../assets/logo2.png";
 import "./Nav.scss";
 
 class Nav extends Component {
   render() {
     return (
       <div className="nav">
-        <img className="logo" src="../../images/logo2.png" alt="" />
+        <div className="logo-wrap">
+          <img className="logo" src={logo2} alt="" />
+        </div>
+
         <nav className="navWrap">
           <ul className="navMenu">
             <li className="navList">

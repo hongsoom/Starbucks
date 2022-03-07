@@ -4,28 +4,31 @@
   background: #f6f5ef;
   padding: 10px;
 
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 300px;
-    width: 50px;
+  .logo-wrap {
+    .logo {
+      width: 230px;
+      padding-left: 20px;
+    }
   }
 
-  .navList {
-    width: 100%;
-    padding-right: 250px;
-    text-align: right;
+  .navWrap {
+    .navMenu {
+      .navList {
+        width: 100%;
+        padding-right: 250px;
+        text-align: right;
 
-    a {
-      color: #333333;
-      font-style: normal;
-      font-family: Arial, georgia;
-      font-size: 13px;
-      padding-bottom: 10px;
-      margin-right: 20px;
-      text-decoration: none;
-      cursor: pointer;
+        a {
+          color: #333333;
+          font-style: normal;
+          font-family: Arial, georgia;
+          font-size: 13px;
+          padding-bottom: 10px;
+          margin-right: 20px;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
     }
   }
 }
