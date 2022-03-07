@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Nav from "../Nav/Nav";
-import "./StarBucks.scss";
+import Nav from "../components/Nav/Nav";
+import "./main.scss";
 
-class StarBucks extends Component {
+class Main extends Component {
   render() {
     return (
       <div className="main">
@@ -16,4 +16,4 @@ class StarBucks extends Component {
     );
   }
 }
-export default StarBucks;
+export default Main;

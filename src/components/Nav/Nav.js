@@ -6,7 +6,7 @@ class Nav extends Component {
   render() {
     return (
       <div className="nav">
-        <img className="logo" src="./images/logo.png" alt="StarBucks" />
+        <img className="logo" src="../../images/logo2.png" alt="" />
         <nav className="navWrap">
           <ul className="navMenu">
             <li className="navList">
