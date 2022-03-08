@@ -7,27 +7,32 @@ class MenuList extends Component {
   componentDidMount() {
     console.log("beverageCardData", beverageCardData);
   }
+
+  linkToDetail = (id) => {
+    this.props.history.push(`/MENU/${id}`);
+  };
+
   render() {
     return (
       <div className="product">
         {beverageCardData.map((data) => {
           return (
             <div className="menudata" key={data.id}>
-              <img
-                src={data.img}
-                alt={data.name}
-                onClick={() => this.linkToDetail(data.id)}
-              />
-              <span>{data.name}</span>
+              <dl>
+                <dt>
+                  <img
+                    src={data.img}
+                    alt={data.name}
+                    onClick={() => this.linkToDetail(data.id)}
+                  />
+                  <span>{data.name}</span>
+                </dt>
+              </dl>
             </div>
           );
         })}
       </div>
     );
   }
-
-  linkToDetail = (id) => {
-    this.props.history.push(`/MENU/${id}`);
-  };
 }
 export default withRouter(MenuList);
