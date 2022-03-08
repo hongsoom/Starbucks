@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { beverageCardData } from "../utills/menu";
+import { beverageCardData } from "../../utills/menu";
 import { Route, withRouter } from "react-router-dom";
 import "./MenuList.scss";
 

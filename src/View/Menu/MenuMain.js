@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Nav from "../components/Nav/Nav";
 import MenuBar from "./MenuBar";
 import MenuList from "./MenuList";
 import "./MenuMain.scss";
